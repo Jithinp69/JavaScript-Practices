@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions</title>
+</head>
+<body>
+
+    <script>
+//         function multiplication(arg1,arg2){    // inside brackets data are agruments
+//         let a = arg1;
+//         let b = arg2;
+//         return a*b;
+//         }
+//         let c = multiplication(5,5);
+//         let d = multiplication(10,5);
+
+//         console.log(c);
+//         console.log(d);
+
+//         function addition(a,b){
+//             return a+b;
+//         }
+//         let e = addition(5,5);
+//         console.log(e);
+//         addition(12,50);
+
+// // Hands On
+
+//         function drivingEligible(age){
+//             if(age >= 18) {
+//                 console.log("You are eligible to drive");
+//             } else {
+//                 console.log("not eligible to drive");
+//             }
+//         }
+//         drivingEligible(12);
+//         drivingEligible(29);
+
+//         alert("my first alert");
+
+nums = [ 3,5,7,9,10];
+target = 16;
+
+        var ans = [];
+
+var twoSum = function(nums, target){
+    for(let i=0; i<nums.length; i++){
+        for(let j=1; j<nums.length; j++){
+            if((nums[i]+nums[j]) === target){
+            ans = [i, j]
+            }
+        }
+    }
+    return ans
+}
+
+    </script>
+    
+</body>
+</html>
