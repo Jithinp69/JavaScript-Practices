@@ -8,3 +8,6 @@ for (i = 0; i < friends.length; i++) {
     console.log(friends[i] + " not eligible to drive");
   }
 }
+
+const data = [[1, 2, 3], [1,[2,7,9], 3, 4], [4, 5, 6]];
+console.log(data[1] );
