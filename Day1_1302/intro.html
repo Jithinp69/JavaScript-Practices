@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>
+        Intro to JS
+    </title>
+    <script>
+        document.write("Hello Jithin")
+    </script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="myDiv">This is Div</div>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio tenetur perferendis enim fuga, at voluptatum cum accusamus dolorem culpa quasi reiciendis nobis natus ex minus ea ipsa suscipit. Similique.</p>
+    <button onclick="testButton()">Test Button</button>
+    <script>
+        document.getElementById("myDiv").innerHTML = "Hello div is changed";
+        window.alert("hello this is window");
+        console.log("this is console");
+        function testButton(){
+        var testPara = document.getElementById("para").innerHTML;
+        alert("content of para : "+ testPara);
+    }
+    </script>
+</body>
+</html>
