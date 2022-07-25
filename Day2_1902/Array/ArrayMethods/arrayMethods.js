@@ -45,9 +45,25 @@ function spliceArray(){
     //1 - position where element needs to remove /add
     //2 - how many position need to remove
     //3 - strings which is need to add in array
-    cities.splice(2,1,'delhi','pinjab');
+    var city = cities.splice(2,1,'delhi','pinjab');
     console.log(cities);
 }
-spliceArray();
+// spliceArray();
+
+function sliceMethod(){
+    var buddy = ['Jithin','Balraj','Shivanshu','Sachin','Jeevan', 'Karthik', 'Vishnu'];
+    console.log(buddy);
+
+    var sliceBuddy1 = buddy.slice(0,1);
+    var sliceBuddy2 = buddy.slice(0,2);
+    var sliceBuddy3 = buddy.slice(3);
+    var sliceBuddy4 = buddy.slice(4);
+    console.log(sliceBuddy1);
+    console.log(sliceBuddy2);
+    console.log(sliceBuddy3);
+    console.log(sliceBuddy4);
+}
+sliceMethod();
+
 
 
