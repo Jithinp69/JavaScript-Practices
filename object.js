@@ -3,7 +3,7 @@ let friend = {
   friendName: ["jithin", "Rohit", "virat"],
   friendAge: [20, 25, 18],
   age: 29,
-  func: function says() {
+  func: function() {
     console.log("Hello world");
   },
 };
